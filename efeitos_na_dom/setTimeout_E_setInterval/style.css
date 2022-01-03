@@ -1,0 +1,51 @@
+body {
+  background-color: blue;
+}
+
+body.active {
+  background-color: red;
+}
+
+button {
+  width: 250px;
+  padding: 15px 10px;
+  background-color: rgb(97, 20, 141);
+  font-size: 1rem;
+  color: #fff;
+}
+
+.container-button {
+  max-width: 960px;
+  margin: 150px auto;
+  padding: 40px 0;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.exibicao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  font-size: 2rem;
+}
+
+.iniciar {
+  background-color: #333;
+}
+
+.pausar {
+  background-color: #800d0d;
+}
+
+.tempo {
+  margin-top: 55px;
+  background-color: rgb(59, 3, 133);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+}
