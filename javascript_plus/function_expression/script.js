@@ -17,7 +17,6 @@ na qual assinalamos uma função.
 Esta função pode ser anônima ou nomeada. 
 A mesma poderá ser ativada através da variável assinalada.
 */
-
 const somar = function (a, b) {
   return a + b;
 };
