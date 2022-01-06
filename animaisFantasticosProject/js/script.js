@@ -7,6 +7,8 @@ import { initTooltip } from './module/initTooltip.js';
 import { initDropdownMenu } from './module/initDropdownMenu.js';
 import { initMenuMobile } from './module/initMenuMobile.js';
 import { initFuncionamento } from './module/initFuncionamento.js';
+import { initFetchAnimais } from './module/initFetchAnimais.js';
+import { initFetchBitcoin } from './module/initFetchBitcoin.js';
 
 initScrollSuave();
 initAnimationScroll();
@@ -17,3 +19,5 @@ initTooltip();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
+initFetchAnimais();
+initFetchBitcoin();

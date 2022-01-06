@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "aula": "Matemática",
+    "professor": "Lucas"
+  },
+  {
+    "id": 2,
+    "aula": "Física",
+    "professor": "Anselmo"
+  },
+  {
+    "id": 3,
+    "aula": "Quimica",
+    "professor": "Silva"
+  }
+]

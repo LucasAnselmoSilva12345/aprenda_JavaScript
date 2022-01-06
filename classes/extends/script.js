@@ -1,9 +1,10 @@
 /*
 SUBCLASSES
 É possível criarmos uma subclasse, 
-esta irá ter acesso aos métodos da classe à 
-qual ela estendeu através do seu protótipo.
+esta irá ter acesso aos métodos da classe 
+à qual ela estendeu através do seu protótipo.
 */
+
 class Veiculo {
   constructor(rodas) {
     this.rodas = rodas;
@@ -19,17 +20,14 @@ class Moto extends Veiculo {
   }
 }
 
-const honda = new Moto(2); // rodas
+const honda = new Moto(2);
 honda.empinar();
-
-const civic = new Veiculo(4);
-civic.acelerar();
-//civic.empinar(); // error
 
 /*
 MÉTODOS
 Podemos escrever por cima de um método herdado.
 */
+
 class Automovel {
   constructor(rodas) {
     this.rodas = rodas;
@@ -39,56 +37,59 @@ class Automovel {
   }
 }
 
-class Caminhao extends Automovel {
+class Onibus extends Automovel {
   acelerar() {
-    console.log('Acelerar muito');
+    console.log('Onibus Acelerou muito com suas ' + this.rodas + ' rodas');
   }
 }
 
-const mercedez = new Caminhao(8);
+const mercedez = new Onibus(8);
 mercedez.acelerar();
 
 /*
 SUPER
-É possível utilizar a palavra chave super para 
-falarmos com a classe que pai e acessarmos os 
-seus métodos e propriedades.
+É possível utilizar a palavra chave super 
+para falarmos com a classe que pai 
+e acessarmos os seus métodos e propriedades.
 */
-class Carrinhos {
+
+class Automeveis {
   constructor(rodas) {
-    this.rodas = rodas;
+    this.rodas = rodas || 4;
   }
   acelerar() {
-    console.log('Acelerou');
+    console.log('Acelerarrr');
   }
 }
 
-class Onibus extends Carrinhos {
+class Caminhao extends Automeveis {
   acelerar() {
     super.acelerar();
-    console.log('Demais');
+    console.log('Muitoooo');
   }
 }
-const busao = new Onibus(8);
-busao.acelerar();
+
+const Scannia = new Caminhao();
+Scannia.acelerar();
 
 /*
 SUPER E CONSTRUCTOR
-Podemos utilizar o super para estendermos o método constructor.
+Podemos utilizar o super 
+para estendermos o método constructor.
 */
 
-class VeiculoNovo {
-  constructor(rodas, combustivel) {
+class Veiculos {
+  constructor(rodas, combustiveis) {
     this.rodas = rodas;
-    this.combustivel = combustivel;
+    this.combustiveis = combustiveis;
   }
 }
 
-class Carro extends VeiculoNovo {
-  constructor(rodas, combustivel, capacete) {
-    super(rodas, combustivel);
-    this.capacete = capacete;
+class Car extends Veiculos {
+  constructor(rodas, combustiveis, lugares) {
+    super(rodas, combustiveis);
+    this.lugares = lugares;
   }
 }
 
-const cruze = new Carro(4, 'Gasolina', false);
+const onix = new Car(4, 'Flex', '7');

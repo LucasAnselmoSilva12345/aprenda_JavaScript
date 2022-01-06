@@ -1,8 +1,9 @@
-import { Countdown } from './coutdown.js';
+import { Countdown } from './countdown.js';
 
-const diasParaNatal = new Countdown('24 December 2021 23:59:59 GMT-0300');
+const diasParaNatal = new Countdown('24 December 2022 23:59:59 GMT-0300');
 
-console.log(diasParaNatal.total);
+// console.log(diasParaNatal);
+// console.log(diasParaNatal.total);
 
 // setInterval(() => {
 //   console.log(diasParaNatal.total);
