@@ -1,23 +1,38 @@
-export default function initModal() {
-  const abrirModal = document.querySelector('[data-modal="abrir"]');
-  const fecharModal = document.querySelector('[data-modal="fechar"]');
-  const containerModal = document.querySelector('[data-modal="container"]');
+export default class initModal {
+  constructor(abrirModal, fecharModal, containerModal) {
+    this.abrirModal = document.querySelector(abrirModal);
+    this.fecharModal = document.querySelector(fecharModal);
+    this.containerModal = document.querySelector(containerModal);
 
-  function toogleModal(event) {
-    event.preventDefault();
-    containerModal.classList.toggle('ativo');
+    this.eventToggleModal = this.eventToggleModal.bind(this);
+    this.clickAwayModal = this.clickAwayModal.bind(this);
   }
 
-  function clickAwayModal(event) {
-    if (event.target === this) {
-      toogleModal(event);
+  toogleModal() {
+    this.containerModal.classList.toggle('ativo');
+  }
+
+  eventToggleModal(event) {
+    event.preventDefault();
+    this.toogleModal();
+  }
+
+  clickAwayModal(event) {
+    if (event.target === this.containerModal) {
+      this.toogleModal();
     }
   }
 
-  if (abrirModal && fecharModal && containerModal) {
-    abrirModal.addEventListener('click', toogleModal);
-    fecharModal.addEventListener('click', toogleModal);
+  addModalEvent() {
+    this.abrirModal.addEventListener('click', this.eventToggleModal);
+    this.fecharModal.addEventListener('click', this.eventToggleModal);
+    this.containerModal.addEventListener('click', this.clickAwayModal);
+  }
 
-    containerModal.addEventListener('click', clickAwayModal);
+  init() {
+    if (this.abrirModal && this.fecharModal && this.containerModal) {
+      this.addModalEvent();
+    }
+    return this;
   }
 }

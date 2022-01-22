@@ -1,12 +1,12 @@
 import ScrollSuave from './module/initScrollSuave.js';
 import AccordionList from './module/initAccordionList.js';
 import NavigationTab from './module/initNavigationTab.js';
-import initAnimationScroll from './module/initAnimationScroll.js';
-import initModal from './module/initModal.js';
+import Modal from './module/initModal.js';
 import initTooltip from './module/initTooltip.js';
 import initDropdownMenu from './module/initDropdownMenu.js';
 import initMenuMobile from './module/initMenuMobile.js';
 import initFuncionamento from './module/initFuncionamento.js';
+import initAnimationScroll from './module/initAnimationScroll.js';
 import initFetchAnimais from './module/initFetchAnimais.js';
 import initFetchBitcoin from './module/initFetchBitcoin.js';
 
@@ -24,8 +24,14 @@ const initNavigationTab = new NavigationTab(
 );
 initNavigationTab.init();
 
+const initModal = new Modal(
+  '[data-modal="abrir"]',
+  '[data-modal="fechar"]',
+  '[data-modal="container"]'
+);
+initModal.init();
+
 initAnimationScroll();
-initModal();
 initTooltip();
 initDropdownMenu();
 initMenuMobile();
