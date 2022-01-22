@@ -1,7 +1,7 @@
 import ScrollSuave from './module/initScrollSuave.js';
+import AccordionList from './module/initAccordionList.js';
 import initAnimationScroll from './module/initAnimationScroll.js';
 import initNavigationTab from './module/initNavigationTab.js';
-import initAccordionList from './module/initAccordionList.js';
 import initModal from './module/initModal.js';
 import initTooltip from './module/initTooltip.js';
 import initDropdownMenu from './module/initDropdownMenu.js';
@@ -15,9 +15,11 @@ const initScrollSuave = new ScrollSuave(
 );
 initScrollSuave.init();
 
+const initAccordionList = new AccordionList('[data-anime="accordion"] dt');
+initAccordionList.init();
+
 initAnimationScroll();
 initNavigationTab();
-initAccordionList();
 initModal();
 initTooltip();
 initDropdownMenu();
