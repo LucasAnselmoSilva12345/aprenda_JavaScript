@@ -1,4 +1,4 @@
-export function initFuncionamento() {
+export default function initFuncionamento() {
   const funcionamento = document.querySelector('[data-semana]');
 
   if (funcionamento) {
