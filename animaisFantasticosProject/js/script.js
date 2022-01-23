@@ -8,7 +8,7 @@ import fetchBitcoin from './module/initFetchBitcoin.js';
 import AnimationScroll from './module/initAnimationScroll.js';
 import DropdownMenu from './module/initDropdownMenu.js';
 import MenuMobile from './module/initMenuMobile.js';
-import initFuncionamento from './module/initFuncionamento.js';
+import Funcionamento from './module/initFuncionamento.js';
 
 const initScrollSuave = new ScrollSuave(
   '[data-menu="scrollSuave"] a[href^="#"]'
@@ -50,4 +50,5 @@ const initMenuMobile = new MenuMobile(
 );
 initMenuMobile.init();
 
-initFuncionamento();
+const initFuncionamento = new Funcionamento('[data-semana]', 'aberto');
+initFuncionamento.init();
