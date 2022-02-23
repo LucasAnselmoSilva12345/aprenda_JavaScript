@@ -1,6 +1,6 @@
 # Learn JavaScript 🟡⚫
 
-[Version this documentation in english](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/blob/main/README-en.md)
+[Versão dessa documentação em português](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/blob/main/README.md)
 
 ## Hi developers 🙋‍♂️
 
