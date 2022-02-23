@@ -59,7 +59,7 @@ Uma recomendação para estudar e se aprofundar nessa material, é seguir a segu
 
 Seguindo essa ordem, você vai adquirir conhecimentos de teoria à prática, além de passar por vários casos de usos do JavaScript.
 
-Logo, o primeiro passo para você que deseja estudar essa material, basta realizar um clone desse repositório:
+Logo, o primeiro passo para você que deseja estudar esse material, basta realizar um clone desse repositório:
 
 ```sh
   $ git clone https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript.git
@@ -86,4 +86,4 @@ Ou caso deseje ir para a branch `slide`, rode o comando:
   $ git checkout slide
 ```
 
-Feito isso, basta agora ter dedicação e foco para se tornar um mestre em JS & Claro, lembre-se sempre de colocar em prática tudo que apreender nesse material e também em tudo que você dev estudar.
+Feito isso, basta agora ter dedicação e foco para se tornar um mestre em JS & Claro, lembre-se sempre de colocar em prática tudo que apreender nesse material e também em tudo que você estudar.
