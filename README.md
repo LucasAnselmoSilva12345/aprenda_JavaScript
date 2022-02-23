@@ -49,6 +49,6 @@ O repositorio está divido em 3 branches:
 
   Essa branch contém uma aplicação que consiste no desenvolvimento de um slide de transição de imagens, também utilizando muitos conceitos apreendidos no material disponivel, e utilizando as mesmas tecnologias utilizadas no projeto [Animais Fantasticos](https://projectanimaisfantasticos.aprenda-javascript.pages.dev/)
 
-  Imagem do slide que foi desenvolvido ⬇️:
+  Video do slide que foi desenvolvido ⬇️:
 
   
