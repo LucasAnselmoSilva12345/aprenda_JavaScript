@@ -14,23 +14,23 @@ O repositório está dividido em 3 branches:
 
   Branch responsável por armazenar as pastas com os conceitos iniciais do JS, possui uma estrutura de 9 pastas à serem seguidas pela ordem:
 
-  1 - [JavaScript para iniciantes](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/javascript_iniciantes)
+  1 - [JavaScript para iniciantes](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/1._Javascript-Iniciantes)
 
-  2 - [Dom no JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/dom_iniciantes)
+  2 - [Dom no JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/2._Dom-no-JavaScript)
 
-  3 - [Objetos em JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/objetos)
+  3 - [Objetos em JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/3._Objetos-em-JavaScript)
 
-  4 - [Efeitos na dom usando JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/efeitos_na_dom)
+  4 - [Efeitos na dom usando JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/4._Efeitos-na-dom-usando-Java-Script)
 
-  5 - [JavaScript Assíncrono](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/javascript_assincrono)
+  5 - [JavaScript Assíncrono](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/5._Javascript-assincrono)
 
-  6 - [Classes no JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/classes)
+  6 - [Classes no JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/6._Classes-no-JavaScript)
 
-  7 - [Mais JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/javascript_plus)
+  7 - [Mais JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/7._Mais-JavaScript)
 
-  8 - [Regex no JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/regular-expression)
+  8 - [Regex no JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/8._Regex-no-JavaScript)
 
-  9 - [Automação no front-end usando JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/automacao-frontend)
+  9 - [Automação no front-end usando JavaScript](https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript/tree/main/9._Automacao-frontend-usando-JavaScript)
 
   Todas as pastas possuem exemplos com códigos e exercícios práticos.
 
